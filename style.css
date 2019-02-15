@@ -55,3 +55,18 @@ a:hover {
     margin-top: 15%;
     max-width: 600px;
 }
+
+.logo-container {
+    display: block;
+    width: 10%;
+    max-width: 200px;
+    margin: 64px auto;
+}
+
+svg {
+    stroke: lightblue;
+}
+
+svg:hover {
+    stroke: white;
+}
