@@ -1,46 +1,48 @@
 body {
-    background-color: #22264b;
+    background-color: #170413;
     padding: 0;
     padding-bottom: 1rem;
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
-	font-style: italic;
-    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
 	font-size: 4rem;
+    font-style: italic;
 	line-height: 1.4;
-	color: #e6cf8b;
+	color: #eee;
     margin-bottom: 0;
 }
 
 h2 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-style: normal;
     text-transform: uppercase;
-    font-weight: bold;
-	color: #e6cf8b;
-	font-size: 1rem;
+    font-weight: 400;
+	color: #eee;
+	font-size: 1.2rem;
 	line-height: 1.4;
 
 }
 
 p, ol, ul {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
 	font-style: normal;
     font-weight: 400;
-	color: #e6cf8b;
+	color: #eee;
 	font-size: 1rem;
 	line-height: 1.5em;
+    padding: 0;
+    list-style-position: inside;
 }
 
-p {
-    padding: 0 1rem 0 0;
+ul {
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: rosybrown;
+    color: lightblue;
 }
 
 a:hover {
@@ -51,4 +53,5 @@ a:hover {
     width: 66%;
     margin: auto;
     margin-top: 15%;
+    max-width: 600px;
 }
