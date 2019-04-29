@@ -1,73 +1,29 @@
 body {
-    background-color: #adffdb;
+    background-color: #170413;
     padding: 0;
     padding-bottom: 1rem;
-}
-
-h1 {
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: 200;
-	font-size: 4rem;
-	line-height: 0.92;
-	color: darkred;
-    margin-bottom: 0;
-    word-wrap: break-word;
-}
-
-h2 {
-    font-family: 'PT Serif', serif;
-	font-style: italic;
-    text-transform: uppercase;
-    font-weight: 400;
-	color: #222;
-	font-size: 1.2rem;
-	line-height: 1.4;
-
-}
-
-p, ol, ul {
-    font-family: 'PT Serif', serif;
-	font-style: normal;
-    font-weight: 400;
-	color: #222;
-	font-size: 1rem;
-	line-height: 1.5em;
-    padding: 0;
-    list-style-position: inside;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    font-weight: 700;
-    color: inherit; */
-}
-
-a:hover {
-    color: rgba(0, 0, 0, 0.3);
-}
-
-.text-column {
-    width: 66%;
-    margin: auto;
-    margin-top: 15%;
-    max-width: 600px;
+    height: 100%;
 }
 
 .logo-container {
-    display: block;
-    width: 60px;
-    max-width: 200px;
-    margin: 50px auto;
+    width: 33vw;
+    max-width: 400px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 svg {
-    stroke: darkred;
+    stroke: #92deff;
+    transition: ease .5s;
 }
 
 svg:hover {
-    stroke: white;
+    /* stroke: white; */
+    transform: rotate(30deg);
+    opacity: 0.3;
+    transition: ease .1s;
 }
